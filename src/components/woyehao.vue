@@ -1,19 +1,18 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>weegwfv</h2>
+    <h2>woyehao</h2>
     <router-view></router-view>
-    
+   
   </div>
 </template>
 
 <script>
-import {Toast, Indicator } from 'mint-ui'
 export default {
   name: 'Nihao',
   data () {
     return {
-      msg: 'nihao欢迎来到传智播客'
+      msg: '欢迎来到传智播客'
     }
   }
 }
